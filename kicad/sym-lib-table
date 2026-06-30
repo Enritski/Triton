@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "Triton Devices") (type "KiCad") (uri "${KIPRJMOD}/Triton Devices.kicad_sym") (options "") (descr ""))
+)

@@ -1,0 +1,18 @@
+# Text files
+* text=auto eol=lf
+
+# KiCad project files
+*.kicad_pro text
+*.kicad_sch text
+*.kicad_sym text
+*.kicad_pcb text
+*.kicad_dru text
+*.kicad_prl text
+
+# Binary files
+*.pdf binary
+*.png binary
+*.jpg binary
+*.zip binary
+*.bin binary
+*.hex binary

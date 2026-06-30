@@ -1,0 +1,10 @@
+# KiCad backups
+*-bak
+*.bak
+
+# Autosave
+*.autosave
+
+# Operating system
+Thumbs.db
+.DS_Store
