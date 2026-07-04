@@ -9,6 +9,10 @@
 *.kicad_prl
 kicad/*.kicad_prl
 
+# KiCad lock files
+*.lck
+~*.lck
+
 # Operating system
 Thumbs.db
 .DS_Store
