@@ -1,9 +1,13 @@
 # KiCad backups
 *-bak
 *.bak
+*-backups/
 
 # Autosave
 *.autosave
+
+*.kicad_prl
+kicad/*.kicad_prl
 
 # Operating system
 Thumbs.db

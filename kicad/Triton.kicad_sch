@@ -2,9 +2,289 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid a6fc6256-289a-48ae-8415-326fd1134054)
+	(uuid "a6fc6256-289a-48ae-8415-326fd1134054")
 	(paper "A4")
+	(title_block
+		(title "Triton 8080 One-Board Home Computer")
+		(comment 1 "Based on project published in Electronics Today International November 1978")
+	)
 	(lib_symbols)
+	(sheet
+		(at 125.73 34.29)
+		(size 68.58 31.75)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "1baee710-5da6-4975-a8a1-5a892a2fa3c0")
+		(property "Sheetname" "VDU"
+			(at 125.73 33.5784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "vdu.kicad_sch"
+			(at 125.73 66.6246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Triton"
+				(path "/a6fc6256-289a-48ae-8415-326fd1134054"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 35.56 90.17)
+		(size 62.23 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "4aba00bc-4ad1-4da5-9a58-2b65b5b997b0")
+		(property "Sheetname" "Memory"
+			(at 35.56 89.4584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "memory.kicad_sch"
+			(at 35.56 108.5346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Triton"
+				(path "/a6fc6256-289a-48ae-8415-326fd1134054"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 137.16 95.25)
+		(size 59.69 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "7a6f5a57-3bd8-4df2-9959-9c71d531754d")
+		(property "Sheetname" "KBD Port"
+			(at 137.16 94.5384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "kbd.kicad_sch"
+			(at 137.16 112.3446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Triton"
+				(path "/a6fc6256-289a-48ae-8415-326fd1134054"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 40.64 140.97)
+		(size 64.77 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "8c6e13cc-36ff-4a24-93f1-b3801812cb58")
+		(property "Sheetname" "PSU"
+			(at 40.64 140.2584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "psu.kicad_sch"
+			(at 40.64 163.1446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Triton"
+				(path "/a6fc6256-289a-48ae-8415-326fd1134054"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 31.75 34.29)
+		(size 73.66 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "8df29582-3750-43a8-a488-fca5e0715fc5")
+		(property "Sheetname" "CPU"
+			(at 31.75 33.5784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cpu.kicad_sch"
+			(at 31.75 64.0846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Triton"
+				(path "/a6fc6256-289a-48ae-8415-326fd1134054"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 138.43 125.73)
+		(size 54.61 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "a19a4dad-592e-4588-b56e-39057c51ca04")
+		(property "Sheetname" "Tape IO"
+			(at 138.43 125.0184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "tape.kicad_sch"
+			(at 138.43 150.4446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Triton"
+				(path "/a6fc6256-289a-48ae-8415-326fd1134054"
+					(page "7")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
